@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Spin!</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/solo.css">
+  </head>
+  <body>
+    <div class="container">
+      <h5>Spin it</h5>
+      touch bar example
+      <ul>
+        <li>node version: <script>document.write(process.versions.node)</script></li>
+        <li>chrome version: <script>document.write(process.versions.chrome)</script></li>
+        <li>electron version: <script>document.write(process.versions.electron)</script></li>
+      </ul>
+       <ul>
+        <input id="slider1" type="range" min="0" max="360" step="1" />
+        <p id="sliderval">180 deg</p>
+      </ul>
+    </div>
+    <script>require('./touchbarListener')</script>
+  </body>
+</html>

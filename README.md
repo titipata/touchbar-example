@@ -10,7 +10,16 @@
 
 try out example of touchbar application using `electron` from this [blog](https://electron.atom.io/blog/2017/03/08/touch-bar-support)
 
-To install all dependencies
+
+## Available examples
+
+- `touchbar-slider`
+- `touchbar-slotmachine`
+
+
+## Run application
+
+Each folder contains electron application. To install all dependencies, run
 
 ```bash
 npm install
