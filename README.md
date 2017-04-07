@@ -19,7 +19,14 @@ try out example of touchbar application using `electron` from this [blog](https:
 
 ## Run application
 
-Each folder contains electron application. To install all dependencies, run
+First clone the repository,
+
+```bash
+git clone https://github.com/titipata/touchbar-example
+```
+
+Each folders in the repository contains electron application.
+To install all dependencies, run
 
 ```bash
 npm install
